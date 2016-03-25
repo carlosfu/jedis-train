@@ -12,7 +12,7 @@ public class JedisFirstTest {
     public static void main(String[] args) {
         Jedis jedis = null;
         try {
-            jedis = new Jedis("10.10.53.159", 6389);
+            jedis = new Jedis("127.0.0.1", 6379);
             String pingResult = jedis.ping();
             System.out.println("pingResult: " + pingResult);
 
