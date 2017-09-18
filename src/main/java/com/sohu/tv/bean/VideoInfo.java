@@ -34,6 +34,8 @@ public class VideoInfo implements Serializable {
      */
     private String desc;
 
+    private String info;
+
     public long getId() {
         return id;
     }
